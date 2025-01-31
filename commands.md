@@ -82,5 +82,5 @@
   ```docker inspect c2```
 
   ### view container log
-  ```docker logs -f c2``
+  ```docker logs -f c2```
   
