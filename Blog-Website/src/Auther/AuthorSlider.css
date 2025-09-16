@@ -1,0 +1,43 @@
+/* Custom styles for Swiper slides */
+.custom-slide {
+  width: 300px; /* Set the width of each slide */
+  height: 310px; /* Set the height of each slide */
+  background-color: #deeff1; /* Set the background color of each slide */
+  border-radius: 10px; /* Add border-radius for rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+  overflow: hidden; /* Hide overflow content */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.author-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.author-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.author-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.author-bio {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+/* Hide the scrollbar */
+.swiper-scrollbar {
+  display: none;
+}
